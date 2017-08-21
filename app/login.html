@@ -3,26 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <title>Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
 </head>
 <body>
-  <form>
+<div class="container">
+    <h1>LOGIN</h1>
+    <form>
 
-  <div>
-    <label>Username</label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+      <div>
+        <label>Username</label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+<!--           <div class="row">
+            <div class="input-field col s12">
+              <input id="password" class="validate">
+              <label for="password" class="active">Username</label>
+            </div> -->
 
-    <label>Password</label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+          </div>
+        <label>Password</label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+<!--           <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password" class="active">Password</label>
+            </div>
+          </div> -->
 
-    <button type="submit">Login</button>
-    <input type="checkbox" checked="checked"> Remember me
-  </div>
-
-  <div>
-    <button type="button">Cancel</button>
-    <span>Forgot <a href="reset.html">password?</a></span>
-  </div>
-</form>
-
+          <a class="waves-effect waves-light btn">Login</a>
+    <!--     <input type="checkbox" checked="checked"> Remember me -->
+          <p>
+          <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+          <label for="filled-in-box">Remember Me</label>
+        </p>
+        <a class="waves-effect waves-light btn" href="reset.html">Forgot Password</a>
+      </div>
+    </form>
+</div>
 </body>
 </html>
