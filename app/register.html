@@ -2,19 +2,70 @@
 <html>
   <head>
     <title></title>
+    <!-- This line add the CDN for materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- This line adds your custom CSS files -->
+    <link rel="stylesheet" href="temp/styles/styles.css">
+
   </head>
   <body>
-    <form action="">
-      username:<br>
-      <input type="text" name="username"><br>
-       email:<br>
-      <input type="text" name="email"><br>
-       password:<br>
-      <input type="text" name="password"><br>
-     re-confirm password:<br>
-      <input type="text" name="re-confirmpassword"><br>
-      <input type="button" value="Confirm"><br>
+ <div <div class="container">
+    <h1> Register </h1>
 
-    </form>
+<div class="row">
+    <form class="register col s12">
+      <div class="row">
+        <div class="input-field">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label class="active" for="icon_prefix">First Name</label>
+        </div>
+
+        <div class="input-field">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="tel" class="validate">
+          <label class="active" for="icon_prefix">Last Name</label>
+        </div>
+
+        <div class="input-field">
+          <i class="material-icons prefix">date_range</i>
+          <input id="icon_prefix" type="tel" class="validate">
+          <label class="active" for="icon_prefix">Date of Birth</label>
+        </div>
+
+        <div class="input-field">
+          <i class="material-icons prefix">email</i>
+          <input id="icon_prefix" type="tel" class="validate">
+          <label class="active" for="icon_prefix">Email</label>
+        </div>
+
+        <div class="input-field">
+          <i class="material-icons prefix">people</i>
+          <input id="icon_prefix" type="tel" class="validate">
+          <label class="active" for="icon_prefix"> Create Username</label>
+        </div>
+
+        <div class="input-field">
+          <i class="material-icons prefix">lock</i>
+          <input id="icon_prefix" type="tel" class="validate">
+          <label class="active" for="icon_prefix">Create Password</label>
+        </div>
+
+        <div class="input-field">
+          <i class="material-icons prefix">done_all</i>
+          <input id="icon_prefix" type="tel" class="validate">
+          <label class="active" for="icon_prefix">Verify Password</label>
+        </div>
+
+        <a class="waves-effect waves-light btn">Create Account</a>
+        <a class="waves-effect waves-light btn"> Cancel</a>
+
+  </form>
+  </div>
+ </div>
+
   </body>
 </html>
