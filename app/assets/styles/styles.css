@@ -1,5 +1,4 @@
 @import 'normalize.css';
 @import 'base/_mixins';
 @import 'base/_global';
-@import 'base/_register';
-@import 'modules/_large-hero';
+@import 'modules/forms/_register';

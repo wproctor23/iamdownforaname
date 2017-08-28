@@ -1,0 +1,20 @@
+.register .input-field input[id=icon_prefix]:focus + label{
+    color: #EE8F49;
+  }
+
+
+.input-field{
+  color: #EE8F49;
+}
+
+.btn{
+  background-color: #97B2AB;
+}
+
+.btn:hover{
+  background-color: #EE8F49;
+}
+
+h1{
+  color: #97B2AB;
+}

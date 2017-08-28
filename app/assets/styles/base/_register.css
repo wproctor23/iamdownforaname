@@ -1,4 +1,16 @@
-.input-field {
-  color: #97B2AB;
-
+/*.input-field {
+  color: orange;
 }
+
+.input-field label {
+  color: orange;
+}
+
+#icon_prefix:focus{
+  border-bottom-color: orange;
+  box-shadow: 1px 0px orange;
+}*
+
+
+
+
