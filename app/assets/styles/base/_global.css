@@ -7,3 +7,18 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/*-------------------------------------
+| Slideshow
+-------------------------------------*/
+#faded {
+	width: 600px;
+	height: 300px;
+	margin: auto;
+	position: relative;
+}
+#faded img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
