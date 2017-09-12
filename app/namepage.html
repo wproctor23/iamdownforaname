@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Retail Apocalypse</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body class="">
+
+		<div id="container">
+			<header>
+				<div>
+					Retail Apocalypse
+				</div>
+			</header>
+			<nav id="mainmenu">
+				<div class="inset">
+					<div class="glyphicon glyphicon-menu-hamburger"></div>
+					<div class="links">
+						<a href="#sect1">HOME</a>
+						<a href="#sect2">TOP 10</a>
+						<a href="#sect3">STORES</a>
+					</div>
+				</div>
+			</nav>
+			<section id="sect1">
+				<div>
+				<div id="faded">
+							<img src="./img/bigk.jpg">
+							<img src="./img/radioshack.jpg">
+							<img src="./img/kmart.JPG">
+							<img src="./img/jcpenny.JPG">
+						</div>
+						<script src="./js/jquery-1.11.3.min.js" charset="utf-8"></script>
+								<script type="text/javascript">
+
+									$('#faded img:gt(0)').css({'opacity':'0'});
+
+									function faded_slide() {
+
+										$('#faded img:eq(1)')
+										.delay(2000)
+										.animate({'opacity':'1'}, 1000, faded_slide_done);
+									}
+
+									function faded_slide_done() {
+										console.log('All Done');
+
+										$('#faded img:eq(0)')
+											.css({'opacity':'0'})
+											.appendTo('#faded');
+
+										faded_slide();
+
+									}
+
+									faded_slide();
+								</script>
+				</div>
+			</section>
+			<section id="sect2">
+				<div>
+					<h1>Top 10</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</section>
+			<section id="sect3">
+				<div>
+					<h1>Stores</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</section>
+
+			<footer>
+				<div>
+					&copy; End of the Stores 2017.
+				</div>
+			</footer>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>
+	</body>
+</html>
