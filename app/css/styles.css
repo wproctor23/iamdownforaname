@@ -1,0 +1,104 @@
+body {
+	background-color: #eee;
+	margin: 0px;
+	font-family: Verdana, sans-serif;
+}
+
+/*-------------------------------------
+| Slideshow
+-------------------------------------*/
+#faded {
+	width: 600px;
+	height: 300px;
+	margin: auto;
+	position: relative;
+}
+#faded img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+/*-------------------------------------
+| Background Images
+-------------------------------------*/
+section {
+  background-size: cover;
+	background-position: center center;
+	background-color: #fff;
+
+	background-attachment: fixed;
+}
+
+section:nth-of-type(odd) { background-image: url(../img/coverback.jpg); }
+
+/*-------------------------------------
+| core elements
+-------------------------------------*/
+header, footer {
+	line-height: 200px;
+	text-align: center;
+	background-color: #2E1714;
+	padding: 20px;
+	font-size: 30px;
+}
+nav#mainmenu {
+	text-align: center;
+	background-color: black;
+	padding: 20px;
+	margin: 0px;
+}
+
+body.pinned header {
+	margin-bottom: 90px;
+}
+body.pinned nav#mainmenu{
+	position: fixed;
+	left: 0px; right: 0px; top: 0px;
+}
+
+section {
+	background-color: #white;
+	padding: 20px;
+	min-height: 500px;
+}
+
+p { text-align: justify; }
+
+/*-------------------------------------
+| nav bar
+-------------------------------------*/
+nav { text-align: center; margin: 25px 0px; }
+nav a {
+	display: inline-block;
+	padding: 0px 50px;
+	line-height: 50px;
+	text-decoration: none;
+	background-color: #B88F73;
+	color: #fff;
+	border-radius: 0px 10px;
+}
+nav a:hover { background-color: #08191C; }
+nav a.chosen { color: #08191C; background-color: #fff;}
+
+.glyphicon-menu-hamburger { display: none; }
+.links { display: block; }
+
+body.hamburger .glyphicon-menu-hamburger {
+	display: block;
+
+	font-size: 40px;
+	color: white;
+
+	transition: .5s all;
+}
+body.hamburger .links { display: none; }
+
+body.hamburger .links a { display: block; margin-bottom: 5px;}
+body.hamburger-open .links { display: block; }
+
+body.hamburger-open .glyphicon-menu-hamburger {
+	-ms-transform: rotate(90deg); /* IE 9 */
+	-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	transform: rotate(90deg);
+}
