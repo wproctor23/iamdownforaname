@@ -2,3 +2,4 @@
 @import 'base/_mixins';
 @import 'base/_global';
 @import 'modules/_login.css';
+@import 'modules/_stores.css';
