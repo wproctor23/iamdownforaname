@@ -3,9 +3,7 @@ body {
   color: #333;
   background-image: url(/assets/images/background-web.png);
   background-repeat: no-repeat;
-  background-position: top;
-
-
+  background-position: bottom;
 }
 
 img {
@@ -26,4 +24,25 @@ img {
 	position: absolute;
 	left: 0px;
 	top: 0px;
+}
+
+nav {
+  background-color: #97B2AB;
+
+  padding: 0 10px 10px 10px;
+  height: 84px;
+  a {
+    height: 84px;
+    img {
+      padding-top: 8px;
+    }
+  }
+}
+
+.search-nav {
+    margin-bottom: 80px;
+}
+
+.container {
+    min-width: 100vh;
 }
