@@ -453,6 +453,11 @@ template {
 body {
   font-family: 'Roboto', sans-serif;
   color: #333;
+  background-image: url(/assets/images/background-web.png);
+  background-repeat: no-repeat;
+  background-position: top;
+
+
 }
 
 img {
