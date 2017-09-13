@@ -455,9 +455,7 @@ body {
   color: #333;
   background-image: url(/assets/images/background-web.png);
   background-repeat: no-repeat;
-  background-position: top;
-
-
+  background-position: bottom;
 }
 
 img {
@@ -482,21 +480,8 @@ img {
 	top: 0px;
 }
 
-.btn:focus, .btn-large:focus, .btn-floating:focus {
-    background-color: #FFFFFF;
-}
-
-.btn, .btn-large {
-    text-decoration: none;
-    color: #fff;
-    background-color: #97B2AB;
-    margin-bottom: 20px;
-    margin-right: 10px;
-}
-
 nav {
   background-color: #97B2AB;
-  margin-bottom: 80px;
   padding: 0 10px 10px 10px;
   height: 84px;
 }
@@ -508,6 +493,26 @@ nav a {
 nav a img {
       padding-top: 8px;
     }
+
+.search-nav {
+    margin-bottom: 80px;
+}
+
+.container {
+    min-width: 100vh;
+}
+
+.btn:focus, .btn-large:focus, .btn-floating:focus {
+    background-color: #FFFFFF;
+}
+
+.btn, .btn-large {
+    text-decoration: none;
+    color: #fff;
+    background-color: #97B2AB;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
 
 .login-container {
   max-width: 350px;

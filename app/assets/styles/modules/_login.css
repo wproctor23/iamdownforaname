@@ -11,18 +11,7 @@
     margin-right: 10px;
 }
 
-nav {
-  background-color: #97B2AB;
-  margin-bottom: 80px;
-  padding: 0 10px 10px 10px;
-  height: 84px;
-  a {
-    height: 84px;
-    img {
-      padding-top: 8px;
-    }
-  }
-}
+
 
 .login-container {
   max-width: 350px;
