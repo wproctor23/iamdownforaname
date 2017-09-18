@@ -453,9 +453,7 @@ template {
 body {
   font-family: 'Roboto', sans-serif;
   color: #333;
-  background-image: url(/assets/images/background-web.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
+
 }
 
 img {
@@ -498,8 +496,11 @@ nav a img {
     margin-bottom: 80px;
 }
 
-.container {
-    min-width: 100vh;
+.background {
+    min-height: 100vh;
+    background-image: url(/assets/images/background-web.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .btn:focus, .btn-large:focus, .btn-floating:focus {
@@ -530,11 +531,19 @@ nav a img {
 }
 
 footer {
-  margin-top: 80px;
+  /*margin-top: 80px;*/
 }
 
 .logo {
 -webkit-filter: drop-shadow(2.5px 2.5px 2px rgba(0, 0, 0, 0.7));
         filter: drop-shadow(2.5px 2.5px 2px rgba(0, 0, 0, 0.7));
 margin-top: 5px;
+}
+
+h1{
+  margin: auto;
+}
+
+.btn-div {
+  text-align: center;
 }
