@@ -5,3 +5,8 @@ h1{
 .btn-div {
   text-align: center;
 }
+
+.card-image {
+  width:100%;
+  overflow: hidden;
+}
